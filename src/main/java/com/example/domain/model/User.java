@@ -1,10 +1,10 @@
-package com.example.model;
+package com.example.domain.model;
 
 import jakarta.persistence.*;
 
 import java.util.List;
 
-@Entity(name = "user")
+@Entity(name = "tb_user")
 public class User {
 
     @Id
